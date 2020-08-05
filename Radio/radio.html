@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FelixRadio</title>
+        <link rel="stylesheet" href="radio.css"/>
+        <link rel="icon" href="IMG/logo.png"/>
+         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="it's my first live Radio project :>">
+        <meta name="keywords" content="Radio, MusicPlayer, Music">
+        <meta name="author" content="StrangerFelix">
+        <meta property="og:type"               content="website" />
+        <meta property="og:title"              content="FelixDev Radio" />
+        <meta property="og:description"        content="it's my first live Radio project :>" />
+    </head>
+    <body>
+        <header id='web-header'>
+        <div id="header-div">
+            <span id="logo-box">
+                <h1 id="web-title"><a id='felixDev' href="/index.html">FelixDev</a></h1>
+                <img id="logo" src="IMG/logo.png">
+                    
+                
+            </span>
+            <span id="nav-bar"> 
+                <ul>
+                    <li class="li-nav-all"><a class='a-li-all a-li-home' href='/index.html'>Home</a></li>
+                    <li class="li-nav-all"><a href="#" class="a-li-all a-li-radio">Radio</a></li>
+                </ul>
+            </span>
+            
+        </div>
+    </header>
+    <div id='radio-justify'>
+        <main id='container'>
+            <header id='radio-header'>
+                <img id='music-logo' src="IMG/musicLogo.webp">
+                <h1 id='radio-title'>Felix Live Radio</h1>
+            </header>
+            <div id='img-container'>
+            <img id='trilogy' src='IMG/trilogy.png'>
+        </div>
+            <p id='radioOneTitle'>The Weeknd - The Zone</p>
+            <div id='radio-content'>
+                <article id='buttons-article'>
+                    <img src="IMG/rewind.png" id='back'>
+                    <span id='spanPlay'><img src="IMG/play-button.png" class='play'></span>
+                    <!-- <img src='IMG/pause.png' id='pause'>-->
+                    <img src="IMG/next.png" id='next'>
+                    <audio src="Audio/theZone.mp3" id='audioFile'></audio>
+                </article>
+                <article id='buttons2'>
+                    <h1 class='btn-title'>Speed</h1>
+                    <div class='btns-div'>
+                    <input type="range" id='rangeSong' max="200" min="0">
+                    </div>
+                    <h1 class='btn-title'>Volume</h1>
+                    <div class='btns-div'>
+                    <input type="range" id='rangeVolume'>
+                </div>
+                </article>
+            </div>
+        </main>
+    </div>
+<script src="js/radioApp.js"></script>
+    </body>
+</html>

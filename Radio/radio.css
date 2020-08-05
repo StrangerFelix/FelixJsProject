@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient( 95.2deg,  rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+}
+#web-header{
+    background: #eeeeee;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px #D3D3D3 solid;
+    box-shadow: 0 0 10px 0;
+    
+}
+#logobox{
+    float: right;
+    width: 45%;  
+}
+#logo{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+#web-title{
+    float: left;
+    line-height: 70px;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#felixDev{
+    color: black;
+    text-decoration: none;
+}
+#nav-bar{
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    width: 58%;
+    float: right;
+}
+ul{
+    display: flex;
+    list-style: none;
+   /* margin-left: 70px;*/
+}
+.li-nav-all{
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.a-li-all{
+    text-decoration: none;
+    color: black;    
+    border-bottom: 1.5px solid #90caf9;
+}
+.a-li-home:hover{
+    text-decoration: none;
+    color: #90caf9;
+    transition: 0.1s;
+}
+.a-li-radio:hover{
+    color: #e43c51;
+}
+/**********************/
+#radio-justify{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#container{
+    position: relative;
+    bottom: 15px;
+    height: 900px;
+    width: 600px;
+    background-image: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% );
+}
+
+#radio-header{
+    height: 90px;
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+}
+#music-logo{
+    height: auto;
+    width: 100px;
+    cursor: pointer;
+}
+#radio-title{
+    line-height: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#radioOneTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+#buttons-article{
+    display: flex;
+    justify-content: center;
+}
+#buttons-article img{
+    width: 60px;
+    margin: 30px 20px 10px 20px;
+    cursor: pointer;
+}
+#trilogy{
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+input[type='range' i]{
+    -webkit-appearance: none;
+    background: rgb(172, 150, 150);
+    height: 5px;
+    width: 250px;
+    border-radius: 10px;
+}
+input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(113, 113, 223);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.btns-div{
+    display: flex;
+    justify-content: center;
+}
+#rangeSong{
+    margin: 20px 0;
+}
+#rangeVolume{
+    margin-top: 25px;
+}
+.btn-title{
+    text-align: center;
+}
+@media only screen and (max-width: 575px){
+    #nav-bar{
+        left: 30px
+    }
+}
+@media only screen and (max-width: 460px){
+    #nav-bar{
+        left: 50px
+    }
+}
+@media only screen and (max-width: 430px){
+    #nav-bar{
+        top: 10px;
+        left: -80px;
+    }
+    #web-header{
+        height: 150px;
+    }
+    #web-title{
+        position: relative;
+        left: 75px;
+    }
+    #logo{
+        position: relative;
+        left: 75px
+    }
+}
+@media only screen and (max-width: 370px){
+    #radio-header{
+        height: 150px;
+    }
+    #music-logo{
+        width: 85px;
+        height: 80px;
+        position: relative;
+        left: 125px
+}
+    #radio-title{
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        top: 60px;
+        right: 50px;
+}
+}
+@media only screen and (max-width: 340px){
+     #radio-title{
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        top: 60px;
+        right: 60px;
+        font-size: 25px
+}
+    #music-logo{
+        position: relative;
+        left: 100px;
+    }
+    #web-title{
+        position: relative;
+        left: 50px;
+    }
+    #logo{
+        position: relative;
+        left: 50px;
+    }
+}
+@media only screen and (max-width: 300px){
+    #web-title{
+        position: relative;
+        left: 30px;
+    }
+    #logo{
+        position: relative;
+        left: 30px;
+    }
+}
